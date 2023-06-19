@@ -1,1 +1,9 @@
 node_modules/
+$ cat .gitignore
+z.*
+# Mono auto generated files - Ignore all files starting with "mono_crash."
+z.*
+
+# Root config folder - Ignore this directory at the root due to leading slash
+# Removing the slash would ignore "config" directories at all depths 
+/artifacts
